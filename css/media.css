@@ -1,0 +1,51 @@
+@media only screen and (min-width:300px) and (max-width:560px){
+	.dia{
+	  font-size: 9vw;
+	}
+	.mes{
+	  font-size: 5vw;
+	}
+	#fechaPost {
+	    margin-bottom: -1em;
+	    padding-top: 2em;
+	}
+	.fondo {
+	    padding: 2.5em 2em;
+	}
+	#contenidoPost img {
+	    width: 100%;
+	}
+		#tituloPost h3{
+	    margin: 1em 1em 1em 0.7em;
+	    font-weight: 700;
+	}
+}
+
+@media only screen and (min-width:561px) and (max-width:992px){
+	.dia{
+	  font-size: 5vw;
+	}
+	.mes{
+	  font-size: 4vw;
+	}
+	#fechaPost {
+	    margin-bottom: -1em;
+	}
+	.fondo {
+	    padding: 3em 4em;
+	}
+	#contenidoPost img {
+	    width: 60%;
+	}
+}
+
+
+@media only screen and (min-width:300px) and (max-width:430px){
+	#leer {
+	    margin-top: 0.5em;
+	}
+	.entrada {
+	    padding: 0.6em 0.5em;
+	    min-height: 360px;
+	}
+}
