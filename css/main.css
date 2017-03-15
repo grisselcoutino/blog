@@ -178,4 +178,50 @@ a .fa-chevron-circle-right:hover{
 .mt-m07{
   margin-top: -0.7em;
 }
-
+/*comentarios*/
+#comentarios{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.mt-5{
+  margin-top: 2%;
+}
+.pd-10{
+  padding: 10px;
+}
+.mtb-2{
+  margin-bottom: 2%;
+}
+input, textarea {
+  border: solid 1px #a1a1a1 !important;
+  padding: 5px;
+  margin-bottom: 15px; 
+}
+textarea:focus, input:focus{
+  outline:2px solid #fa6510;
+}
+.hr-orangeComment{
+  height: 2px;
+  background-color: #fa6510;
+  margin: 0% 45% 2% 45%;
+}
+.btn-orangeSend{
+  color: #fa6510;  
+  font-size: 1.1em;
+  background-color:rgba(255, 255, 255, 0.0);
+  border-radius: 20px;
+  border: 1px solid #fa6510;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 0.5em 2em;
+}
+.btn-orangeSend:hover{
+  color: white;
+  font-weight: 700;
+  font-size: 1.1em;
+  background-color: #fa6510;
+}
+#comentarios a{
+    text-decoration: none !important;
+}
